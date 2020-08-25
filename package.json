@@ -1,0 +1,31 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "Pure javascript site constructor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasiliPodoplielov/js-site-constructor.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Vasili Podoplelielov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasiliPodoplielov/js-site-constructor/issues"
+  },
+  "homepage": "https://github.com/VasiliPodoplielov/js-site-constructor#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
